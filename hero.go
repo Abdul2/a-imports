@@ -1,8 +1,8 @@
-package moldels
 
-type Hero struct{
-
-Id int64
-
-
+type Hero struct {
+	Id          int
+	FirstName   string
+	LastName    string
+	MioddleNaMe string
+	Dob         string
 }
